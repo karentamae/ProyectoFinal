@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  body {
+    width: 100%;
+    background-color: #e8c39e;
+    background-image: linear-gradient(to bottom, #a18568, #96775a);
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    overflow-x: hidden; }
+  
+  a {
+    text-decoration: none;
+    color: gray; }
+  
+  .header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: white;
+    opacity: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .header .logo {
+      height: 100px; }
+    .header nav ul {
+      list-style-type: none;
+      text-align: right; }
+      .header nav ul li {
+        display: inline-block;
+        padding-right: 10px; }
+  
+  .inicio:hover {
+    transform: scale(1.1); }
+  
+  .sobreAware:hover {
+    transform: scale(1.1); }
+  
+  .productosNav:hover {
+    transform: scale(1.1); }
+  
+  .promocionesNav:hover {
+    transform: scale(1.1); }
+  
+  .contacto:hover {
+    transform: scale(1.1); }
+  
+  h1, h2, h3 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    color: whitesmoke;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow-y: hidden;
+    text-align: center; }
+  
+  h2 {
+    font-size: 1.875rem;
+    font-weight: lighter;
+    padding-top: 100px; }
+    h2 .seccionContacto {
+      padding-top: 0px !important; }
+  
+  h3 {
+    font-size: 1,5625rem;
+    font-weight: lighter; }
+  
+  p {
+    color: whitesmoke;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px; }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center; }
+  
+  .video {
+    margin: 20px;
+    padding-left: 25%; }
+  
+  .loUltimo {
+    width: 40%;
+    display: block;
+    margin: auto;
+   }
+  
+  .quienessomos {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  
+  .productos, .promociones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 1;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20px; }
+  
+  .promociones {
+    padding-top: 20px; }
+  
+  .cadenaFriends, .pulsera1, .holder1, .holderMulticolor, .holderNegro, .holderOjo, .pulseraAvion, .pulseraOjo, .pulserasVarias, .cadenaCorona, .cadenaEstrella, .cadenaMano, .chokerLuna, .chokerMulticolor, .holder2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: baseline; }
+  
+  fieldset, legend, label {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    margin: 20px;
+    padding: 20px; }
+  
+    fieldset {
+      padding-bottom: 100px;
+    }   
+  
+  legend {
+    color: whitesmoke; }
+  
+  label {
+    color: whitesmoke; }
+  
+  .enviar {
+    padding-left: 33%; }
+  
+  h2 .seccionContacto {
+    padding-top: 0px !important; }
+  
+  footer {
+    height: 150px;
+    background-image: url(./Img/sakura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden; }
+    footer .logoFooter {
+      height: 100px; }
+  
+  @media screen and (max-width: 1023px) {
+    .header {
+      width: 100vw;
+      top: auto; }
+      .header nav ul {
+        padding-right: 20px;
+        padding-left: 20px; }
+        .header nav ul li {
+          font-size: medium;
+          margin-right: 0px;
+          align-content: space-around; }
+      .header .logo {
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-shrink: 0; }
+    .video {
+      width: 100%;
+      height: 100%; }
+    .publicacionesInstagram {
+      width: 60%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: flex-end; } }
+  
+  @media screen and (max-width: 1023px) and (max-width: 808px) {
+    * {
+      margin-right: 0px;
+      padding-right: 0px;
+      overflow-x: hidden; }
+    .header {
+      width: 100vw;
+      top: auto; }
+      .header nav ul {
+        padding-right: 0px;
+        margin-right: 0px; }
+        .header nav ul li {
+          font-size: x-small; }
+    .logo {
+      margin-right: 25px; }
+    .video {
+      width: 100%;
+      height: 100%; }
+    .publicacionesInstagram {
+      width: 60%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: flex-start;
+      margin: 0px;
+      padding: 0px; }
+    footer {
+      height: 150px;
+      flex-flow: nowrap;
+      font-size: x-small; } }
+  
+  @media screen and (max-width: 1023px) and (max-width: 479px) {
+    * {
+      margin-right: 0px;
+      padding-right: 0px;
+      overflow-x: hidden; }
+    h1, h2, h3 {
+      font-size: 20px; }
+    h2 {
+      padding-top: 30px;
+    }
+    h3 {
+      font-size: 15px; }
+    p {
+      font-size: 12px; }
+      .loUltimo {
+        width: 100%;
+      }
+    .video {
+      width: 100%;
+      height: 100%;
+    display: block;
+  margin: auto; }
+    .header {
+      width: 100vw;
+      top: auto; }
+      .header nav ul li {
+        font-size: xx-small; }
+      .header .logo {
+        margin-right: 20px; }
+      .grid {
+        display: flex;
+        flex-flow: row wrap; } 
+      footer {
+        height: auto;
+        font-size: xx-small; } }
+  
