@@ -1,0 +1,103 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+}
+
+.video {
+    margin: 20px;
+    padding-left: 25%;
+}
+
+.loUltimo {
+width: 70%;
+padding-left: 30%;
+}
+
+.quienessomos {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 1;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.promociones {
+    @extend .productos;
+    padding-top: 20px;
+}
+
+.cadenaFriends {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: baseline;
+}
+
+.pulsera1 {
+    @extend .cadenaFriends;
+}
+
+.holder1 {
+    @extend .cadenaFriends
+}
+
+.holderMulticolor {
+    @extend .cadenaFriends;
+}
+
+.holderNegro {
+    @extend .cadenaFriends;
+}
+
+.holderOjo {
+    @extend .cadenaFriends;
+}
+
+.pulseraAvion {
+    @extend .cadenaFriends;
+}
+
+.pulseraOjo {
+    @extend .cadenaFriends;
+}
+
+.pulserasVarias {
+    @extend .cadenaFriends;
+}
+
+.cadenaCorona {
+    @extend .cadenaFriends;
+}
+
+.cadenaEstrella {
+    @extend .cadenaFriends;
+}
+
+.cadenaMano {
+    @extend .cadenaFriends;
+}
+
+.chokerLuna {
+    @extend .cadenaFriends;
+}
+
+.chokerMulticolor {
+    @extend .cadenaFriends;
+}
+
+.holder2 {
+    @extend .cadenaFriends;
+}

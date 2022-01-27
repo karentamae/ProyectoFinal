@@ -1,0 +1,23 @@
+fieldset {
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+legend {
+    @extend fieldset ;
+    color: whitesmoke;
+}
+
+label {
+    @extend fieldset ;
+    color: whitesmoke;
+}
+
+.enviar {
+    padding-left: 33%;
+}
+
+h2 .seccionContacto {
+    padding-top: 0px !important;
+}
